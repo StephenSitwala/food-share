@@ -1,0 +1,246 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+    overflow-x:hidden;
+    color: black;
+
+}
+html{
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+header{
+    position: relative;
+    height: 70px;
+    background-color: brown;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    
+    
+}
+.backBtn{
+     color: white;
+     background:green;
+     margin: 20px;
+     width: 100px;
+     border: none;
+     text-decoration: none;
+     border-radius: 9px;
+     text-transform: uppercase;
+     padding: 3px;
+     
+
+}
+.backBtn a{
+    color: whitesmoke;
+    list-style: none;
+    border: none;
+}
+header h1{
+    margin-top: 70px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 1.4rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    color:white;
+
+    
+}
+.cart-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+    width: 100%;
+    padding: 10px;
+    margin-top: 70px;
+    position: relative;
+    
+}
+.cart-card{
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    padding: 8px;
+    min-width: 0;
+    
+}
+
+.cart-card img{
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 6px;
+    display: block;
+}
+.cart-text{
+    display: flex;
+    flex-direction: column;
+    flex: 1
+}
+.cart-info{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 8px;
+}
+.cart-info h3{
+    font-size: 1.2rem;
+    overflow: hidden;
+
+}
+.cart-info h4{
+    font-size: 1.3rem;
+    color: red;
+    font-weight: bold;
+    align-self: flex-start;
+    margin-top: 8px;
+    font-family: Arial, sans-serif;
+    margin-left: 13px;
+}
+.checkout-btn{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    background: orange;
+    padding: 10px 5px;
+    margin:  8px;
+    text-transform: uppercase;
+    font-weight: bold;
+    position: absolute;
+    border-radius: 8px;
+
+}
+
+/*------tablet-----------*/
+@media(min-width:768px){
+    .cart-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+    width: 100%;
+    padding: 10px;
+}
+
+}
+/*----desktop----------*/
+@media(min-width:1024px){
+    .cart-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+    width: 100%;
+    padding: 10px;
+    margin-top: 70px;
+    max-width: 1200px;
+}
+
+}
+/*-------checkout----------------*/
+.ch{
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 7px;
+
+}
+#checkout-form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 500px;
+    border-radius: 12px;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    gap: 1rem;
+
+}
+#checkout-form label{
+    font-size: 1rem;
+    font-weight: 600;
+
+}
+#checkout-form input,
+#checkout-form textarea,
+#checkout-form select{
+    width: 100%;
+    padding: 0.9rem 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+
+
+}
+#checkout-form textarea{
+    resize: none;
+    min-height: 100px;
+}
+
+.checkout-Btn{
+    width: 100%;
+    background: orange;
+    border: none;
+    padding: 4px;
+    border-radius: 9px;
+    font-weight: bold;
+    justify-content: center;
+}
+
+/*-----tablet-------*/
+@media(min-width:768px){
+    #checkout-form{
+        min-width: 600px;
+        padding: 2rem;
+    }
+    #checkout-form label{
+        font-size: 1.1rem;
+    }
+    #checkout-form input,
+#checkout-form textarea,
+#checkout-form select{
+    font-weight: 1.05rem;
+
+}
+    
+    .checkout-Btn{
+        
+        font-size: 1.1rem;
+    }
+
+}
+/*-----desktop-----*/
+@media(min-width:1024px){
+    #checkout-form{
+        max-width: 700px;
+        padding: 2.5rem;
+    }
+    #checkout-form label{
+        font-size: 1.2rem;
+    }
+     #checkout-form input,
+#checkout-form textarea,
+#checkout-form select{
+    font-weight: 1.1rem;
+
+}
+.checkout-Btn{
+        font-size: 1.2rem;
+        font-size: 1.2rem;
+    }
+
+
+
+}
+
+
+
+
+
+
+

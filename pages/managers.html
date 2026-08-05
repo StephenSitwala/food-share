@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>managers dashboard</title>
+    <link rel="stylesheet" href="../styling/manager.css">
+</head>
+<body>
+    
+    <header class="dashboard-header">  <h1>Food share Manegers Dashboard</h1></header>
+    <main class="dashboard">
+        <section class="form-section">
+            <h2>Add new menu</h2>
+            <form class="menu-form">
+                <input type="text" id="food-text" placeholder="Food nane" required>
+                <input type="number" id="food-price" placeholder="price" required>
+                <input type="text" id="food-category" placeholder="category" required>
+                <input type="text" id="food-image" placeholder="images path" required>
+                <button type="submit">add menu</button>
+            </form>
+        </section>
+        <section class="menu-section">
+            <h2>current menu</h2>
+            <div class="menu-list"></div>
+        </section>
+    </main>
+  
+    
+<script src="../scripts/manegers.js"></script>
+</body>
+</html>
