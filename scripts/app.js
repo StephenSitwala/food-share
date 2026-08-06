@@ -36,21 +36,21 @@ const menu = JSON.parse(localStorage.getItem("menu")) ||[
     {
         name: "cheese Burger",
         price: 78,
-        image:"../photos/home.png",
+        image:"photos/home.png",
         category:"fast-food"
         
     },
     {
         name: "Beef Burger with flies",
         price: 80,
-        image:"../photos/fast4.jpg",
+        image:"photos/fast4.jpg",
         category:"fast-food"
     
     },
     {
         name: "backet of chicken & flies with 1ltr of coke",
         price: 130,
-         image:"../photos/fast5.jpg",
+         image:"photos/fast5.jpg",
         category:"fast-food"
     },
     {
@@ -156,37 +156,37 @@ const menu = JSON.parse(localStorage.getItem("menu")) ||[
      {
         name: "Grilled beef",
         price: 56,
-        image:"../photos/images (26).jpeg",
+        image:"photos/images (26).jpeg",
         category:"grilled & bbq"
     },
     {
         name: "platter grilled beef",
         price: 55,
-        image:"../photos/images (30).jpeg",
+        image:"photos/images (30).jpeg",
         category:"grilled & bbq"
     },
     {
         name: "griiled beff with vagatables",
         price: 60,
-         image:"../photos/images (27).jpeg",
+         image:"photos/images (27).jpeg",
         category:"grilled & bbq"
     },
     {
         name: "grilled beef with colored paper",
         price: 70,
-         image:"../photos/images (29).jpeg",
+         image:"photos/images (29).jpeg",
         category:"grilled & bbq"
     },
     {
         name: "grilled beef",
         price: 50,
-        image:"../photos/grilled 7.jpg",
+        image:"photos/grilled 7.jpg",
         category:"grilled & bbq"
     },
     {
         name: "grillef beef with tomato & green paper",
         price: 30,
-        image:"../photos/grilled 4.jpg",
+        image:"photos/grilled 4.jpg",
         category:"grilled & bbq"
     },
     //=============
@@ -195,31 +195,31 @@ const menu = JSON.parse(localStorage.getItem("menu")) ||[
      {
         name: "pizza",
         price: 78,
-        image:"../photos/home.png",
+        image:"photos/home.png",
         category:"salads & health meals"
     },
     {
         name: "pizza",
         price: 78,
-        image:"../photos/home.png",
+        image:"photos/home.png",
         category:"salads & health meals"
     },
     {
         name: "pizza",
         price: 78,
-         image:"../photos/home.png",
+         image:"photos/home.png",
         category:"salads & health meals"
     },
     {
         name: "pizza",
         price: 78,
-         image:"../photos/home.png",
+         image:"photos/home.png",
         category:"salads & health meals"
     },
     {
         name: "pizza",
         price: 78,
-        image:"../photos/home.png",
+        image:"photos/home.png",
         category:"salads & health meals"
     },
     {
@@ -234,37 +234,37 @@ const menu = JSON.parse(localStorage.getItem("menu")) ||[
     {
         name: "coca cola can",
         price: 30,
-        image:"../photos/images (23).jpeg",
+        image:"photos/images (23).jpeg",
         category:"drinks and beverages"
     },
     {
         name: "Sprite,Coca cola and Fanta each at",
         price: 15,
-        image:"../photos/images (22).jpeg",
+        image:"photos/images (22).jpeg",
         category:"drinks and beverages"
     },
     {
         name: "Pepsi max",
         price: 18,
-         image:"../photos/images (21).jpeg",
+         image:"photos/images (21).jpeg",
         category:"drinks and beverages"
     },
     {
         name: "Fanta",
         price: 20,
-         image:"../photos/Drinks 5.jpeg",
+         image:"photos/Drinks 5.jpeg",
         category:"drinks and beverages"
     },
     {
         name: "Merinda can",
         price: 19,
-        image:"../photos/drinks2.jpeg",
+        image:"photos/drinks2.jpeg",
         category:"drinks and beverages"
     },
     {
         name: "Bottled coca cola ",
         price: 15,
-        image:"../photos/vahidkanani-coca-cola-5779718_1920.jpg",
+        image:"photos/vahidkanani-coca-cola-5779718_1920.jpg",
         category:"drinks and beverages"
     },
 
