@@ -288,7 +288,7 @@ function displayMenu(menuItem){
        const card = document.createElement("div");
        card.classList.add("manu-card")
         card.innerHTML =
-        `<img src ="${item.image}" alt ="${item.name}">
+        `<img loading = "lazy" src ="${item.image}" alt ="${item.name}">
         <div class="manu-text">
         <div class="food-info">
         <h1>${item.name}</h1>

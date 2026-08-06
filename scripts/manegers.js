@@ -32,7 +32,7 @@ function displayMenu(){
         const card = document.createElement("div")
         card.classList.add("menu-card")
         card.innerHTML=`
-        <img src="${item.image}"><alt="${item.name}">
+        <img  loading = "lazy"src="${item.image}"><alt="${item.name}">
         <h3>${item.name}</h3>
         <p>${item.category}</p>
         <h4>${item.price}</h4>
