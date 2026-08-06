@@ -75,37 +75,37 @@ const menu = JSON.parse(localStorage.getItem("menu")) ||[
     //local food
     //============
      {
-        name: "pizza",
+        name: "nshima with vegetable ",
         price: 45 ,
         image:"photos/IMG_20260629_141843_428images (20).jpeg",
         category:"local"
     },
     {
-        name: "pizza",
+        name: "dry fish with flies",
         price: 50,
         image:"photos/IMG_20260629_141843_582images (24).jpeg",
         category:"local"
     },
     {
-        name: "pizza",
+        name: "nshima with kapenta and vegatables",
         price: 40,
          image:"photos/IMG_20260629_141843_723images (23).jpeg",
         category:"local"
     },
     {
-        name: "pizza",
+        name: "nshima with meat",
         price: 35,
          image:"photos/IMG_20260629_141843_485images (21).jpeg",
         category:"local"
     },
     {
-        name: "pizza",
+        name: "matebeto",
         price: 100,
         image:"photos/images (25).jpeg",
         category:"local"
     },
     {
-        name: "pizza",
+        name: "nshima with kapenta",
         price: 30,
         image:"photos/IMG_20260629_141843_509images (22).jpeg",
         category:"local"
