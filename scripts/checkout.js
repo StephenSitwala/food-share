@@ -14,6 +14,6 @@ checkoutForm.addEventListener('submit',function(e){
         
         `)
         localStorage.removeItem("cart");
-        window.localStorage.href ="index.html";
+        window.location.href ="index.html";
 
 })

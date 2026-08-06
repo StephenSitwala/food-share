@@ -6,7 +6,7 @@ const cart = JSON.parse(localStorage.getItem("cart")) || [];
 const cartCount = document.querySelector(".cart-count")
 function updateCartCount(){
     if(cartCount){
-        cartCount.textContent = cart.lenght;
+        cartCount.textContent = cart.length;
     }
 }
 function displayCart(cartItem){
@@ -73,7 +73,7 @@ function updateTotal(){
     const total = subtotal + delvery;
     subtotalPrice.textContent = subtotal;
     grandTotal.textContent = total;
-    totalPrice.textContent = total;
+    
 }
 
 displayCart(cart);

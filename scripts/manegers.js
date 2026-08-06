@@ -7,7 +7,7 @@ const foodPrice = document.querySelector("#food-price");
 const foodCategory = document.querySelector("#food-category");
 const foodImage = document.querySelector("#food-image")
 const menuList = document.querySelector(".menu-list")
-//let menu = JSON.parse(localStorage.getItem("menu")) ||[];//
+let menu = JSON.parse(localStorage.getItem("menu")) ||[];
 displayMenu();
 menuForm.addEventListener("submit",function(event){
     event.preventDefault();
@@ -32,7 +32,7 @@ function displayMenu(){
         const card = document.createElement("div")
         card.classList.add("menu-card")
         card.innerHTML=`
-        <img  loading = "lazy"src="${item.image}"><alt="${item.name}">
+        <img  loading = "lazy"src="${item.image}"alt="${item.name}">
         <h3>${item.name}</h3>
         <p>${item.category}</p>
         <h4>${item.price}</h4>
