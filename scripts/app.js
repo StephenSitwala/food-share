@@ -72,7 +72,7 @@ const menu = JSON.parse(localStorage.getItem("menu")) ||[
         category:"fast-food"
     },
     {
-        name: "backet of chicken",
+        name: "Two beef burgers flies and chicken",
         price: 100,
         image:"photos/images f(29).jpeg",
         category:"fast-food"
