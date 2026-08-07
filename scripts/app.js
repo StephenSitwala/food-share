@@ -159,7 +159,7 @@ const menu = JSON.parse(localStorage.getItem("menu")) ||[
     {
         name: "pizza mashroom",
         price: 78,
-         image:"photos/images p(24).jpeg",
+         image:"photos/images p(25).jpeg",
         category:"pizza & plasta"
     },
     //
