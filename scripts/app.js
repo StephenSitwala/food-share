@@ -43,7 +43,7 @@ const menu = JSON.parse(localStorage.getItem("menu")) ||[
     {
         name: "Beef Burger with flies",
         price: 80,
-        image:"photos/fast4.jpg",
+        image:"photos/images f(30).jpeg",
         category:"fast-food"
     
     },
@@ -56,7 +56,7 @@ const menu = JSON.parse(localStorage.getItem("menu")) ||[
     {
         name: "Big beef burger with flies",
         price: 98,
-         image:"photos/fast2.jpg",
+         image:"photos/fast4.jpg",
         category:"fast-food"
     },
     {
@@ -68,7 +68,19 @@ const menu = JSON.parse(localStorage.getItem("menu")) ||[
     {
         name: "backet of chicken",
         price: 100,
-        image:"photos/fast 7.jpg",
+        image:"photos/images f(31).jpeg",
+        category:"fast-food"
+    },
+    {
+        name: "backet of chicken",
+        price: 100,
+        image:"photos/images f(29).jpeg",
+        category:"fast-food"
+    },
+    {
+        name: "backet of chicken",
+        price: 100,
+        image:"photos/images f(28).jpeg",
         category:"fast-food"
     },
     //=============
@@ -110,18 +122,48 @@ const menu = JSON.parse(localStorage.getItem("menu")) ||[
         image:"photos/IMG_20260629_141843_509images (22).jpeg",
         category:"local"
     },
+    {
+        name: "nshima with kapenta",
+        price: 30,
+        image:"photos/IMG_20260629_141843_509images (22).jpeg",
+        category:"local"
+    },
+    {
+        name: "nshima with kapenta",
+        price: 30,
+        image:"photos/IMG_20260629_141843_509images (22).jpeg",
+        category:"local"
+    },
     
     //============
     //pizza & plasta
     //=============
      {
-        name: "pizza",
+        name: "pizza two one",
         price: 78,
         image:"photos/pizza.jpg",
         category:"pizza & plasta"
     },
     {
-        name: "pizza",
+        name: "pizza plasta",
+        price: 78,
+        image:"photos/images p(25).jpeg",
+        category:"pizza & plasta"
+    },
+    {
+        name: "pizza plast with mixed vegatables",
+        price: 78,
+         image:"photos/images p(26).jpeg",
+        category:"pizza & plasta"
+    },
+    {
+        name: "pizza mashroom",
+        price: 78,
+         image:"photos/images p(24).jpeg",
+        category:"pizza & plasta"
+    },
+    {
+        name: "pizza with coca cola",
         price: 78,
         image:"photos/pizza1.jpg",
         category:"pizza & plasta"
@@ -129,25 +171,19 @@ const menu = JSON.parse(localStorage.getItem("menu")) ||[
     {
         name: "pizza",
         price: 78,
-         image:"photos/pizza1.jpg",
-        category:"pizza & plasta"
-    },
-    {
-        name: "pizza",
-        price: 78,
-         image:"photos/pizza1.jpg",
-        category:"pizza & plasta"
-    },
-    {
-        name: "pizza",
-        price: 78,
         image:"photos/pizza1.jpg",
         category:"pizza & plasta"
     },
     {
-        name: "pizza",
+        name: "pizza plasta",
         price: 78,
-        image:"photos/pizza1.jpg",
+        image:"photos/images p(25).jpeg",
+        category:"pizza & plasta"
+    },
+    {
+        name: "pizza plasta",
+        price: 78,
+        image:"photos/images p(25).jpeg",
         category:"pizza & plasta"
     },
     //===============
@@ -189,43 +225,67 @@ const menu = JSON.parse(localStorage.getItem("menu")) ||[
         image:"photos/grilled 4.jpg",
         category:"grilled & bbq"
     },
+    {
+        name: "grillef beef with tomato & green paper",
+        price: 30,
+        image:"photos/grilled 4.jpg",
+        category:"grilled & bbq"
+    },
+    {
+        name: "grillef beef with tomato & green paper",
+        price: 30,
+        image:"photos/grilled 4.jpg",
+        category:"grilled & bbq"
+    },
     //=============
     //salads & healthy meals
     //=============
      {
-        name: "pizza",
+        name: "health vagatables meal",
         price: 78,
-        image:"photos/home.png",
+        image:"photos/images H(23).jpeg",
         category:"salads & health meals"
     },
     {
-        name: "pizza",
-        price: 78,
-        image:"photos/home.png",
+        name: "beef eith juice and vagatables",
+        price: 50,
+        image:"photos/images H(22).jpeg",
         category:"salads & health meals"
     },
     {
-        name: "pizza",
-        price: 78,
-         image:"photos/home.png",
+        name: "health salads with beef and vegatables",
+        price: 65,
+         image:"photos/images H(21).jpeg",
         category:"salads & health meals"
     },
     {
-        name: "pizza",
+        name: "bread with mixed health vagatables",
         price: 78,
-         image:"photos/home.png",
+         image:"photos/images H(20).jpeg",
         category:"salads & health meals"
     },
     {
-        name: "pizza",
-        price: 78,
-        image:"photos/home.png",
+        name: "mixed vegatable health meal",
+        price: 40,
+        image:"photos/images H(19).jpeg",
         category:"salads & health meals"
     },
     {
-        name: "pizza",
-        price: 78,
-        image:"photos/home.png",
+        name: "smoth juice with health vegatable",
+        price: 50,
+        image:"photos/images H(18).jpeg",
+        category:"salads & health meals"
+    },
+    {
+        name: "smoth juice with health vegatable",
+        price: 50,
+        image:"photos/images H(18).jpeg",
+        category:"salads & health meals"
+    },
+    {
+        name: "smoth juice with health vegatable",
+        price: 50,
+        image:"photos/images H(18).jpeg",
         category:"salads & health meals"
     },
     //==========
@@ -259,6 +319,18 @@ const menu = JSON.parse(localStorage.getItem("menu")) ||[
         name: "Merinda can",
         price: 19,
         image:"photos/drinks2.jpeg",
+        category:"drinks and beverages"
+    },
+    {
+        name: "Bottled coca cola ",
+        price: 15,
+        image:"photos/vahidkanani-coca-cola-5779718_1920.jpg",
+        category:"drinks and beverages"
+    },
+    {
+        name: "Bottled coca cola ",
+        price: 15,
+        image:"photos/vahidkanani-coca-cola-5779718_1920.jpg",
         category:"drinks and beverages"
     },
     {
