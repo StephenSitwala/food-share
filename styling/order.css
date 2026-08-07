@@ -105,13 +105,7 @@ header h1{
     font-family: Arial, sans-serif;
     margin-left: 13px;
 }
-.cart-summary{
-    padding: 1rem 1.5rem;
-    display: flex;
-    flex-direction: column;
-    gap: 6px;
-    text-align: right;
-}
+
 
 .cart-summary{
     padding: 1rem 1rem 1rem 2rem;
