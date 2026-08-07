@@ -347,3 +347,32 @@ filterBtn.forEach(function(button){
     })
 })
 updateCartCount();
+//saerch inout code
+const searchInput = document.querySelector(".search")
+const menusection = document.querySelector("#menu")
+searchInput.addEventListener("input",function(){
+    const searchValue = searchInput.value.toLowerCase().trim();
+    if (searchInput == ""){
+        displayMenu(menu.filter(function(item){
+            return item.category == "fast-food";
+        }))
+    }
+    const searchFood = menu.filter(function(item){
+        return item.name
+        .toLowerCase()
+        .includes(searchValue)
+
+    })
+    if(searchFood.length > 0){
+        displayMenu(searchFood);
+        menusection.scrollIntoView({
+            behavior:"smooth"
+        })
+    }
+    else{
+        displayMenu(menu.filter(function(item){
+            return item.category === "fast-food"
+        }))
+        alert("food not found.")
+    }
+})
