@@ -106,21 +106,21 @@ header h1{
     margin-left: 13px;
 }
 .cart-summary{
-    display: flex;
-    flex-direction: column;
+    margin-left:20px;
 }
-
 .checkout-btn{
-    align-self: flex-end;
+    list-style: none;
     text-decoration: none;
     color: black;
     background: orange;
-    padding: 10px 15px;
+    padding: 10px 5px;
     margin: 8px;
+    margin-left: 50px;
     text-transform: uppercase;
     font-weight: bold;
     border-radius: 8px;
 }
+
 
 
 /*------tablet-----------*/
