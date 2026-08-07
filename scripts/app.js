@@ -134,7 +134,7 @@ const menu = JSON.parse(localStorage.getItem("menu")) ||[
         image:"photos/IMG_20260629_141843_509images (22).jpeg",
         category:"local"
     },
-    
+    /////
     //============
     //pizza & plasta
     //=============
