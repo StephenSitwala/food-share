@@ -105,22 +105,23 @@ header h1{
     font-family: Arial, sans-serif;
     margin-left: 13px;
 }
+.cart-summary{
+    display: flex;
+    flex-direction: column;
+}
+
 .checkout-btn{
-    list-style: none;
+    align-self: flex-end;
     text-decoration: none;
     color: black;
     background: orange;
-    padding: 10px 5px;
-    margin:  8px;
+    padding: 10px 15px;
+    margin: 8px;
     text-transform: uppercase;
     font-weight: bold;
-    position: absolute;
     border-radius: 8px;
-    position: absolute;
-    right: 20px;
-    bottom: 20px
-
 }
+
 
 /*------tablet-----------*/
 @media(min-width:768px){
