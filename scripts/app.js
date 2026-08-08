@@ -29,7 +29,9 @@ links.forEach(function(link){
 //menu cards
 //===============
 const manuContainer = document.querySelector(".manu-container");
-const menu = JSON.parse(localStorage.getItem("menu")) ||[
+const MENU_VERSION = "1;"
+
+const defaultMenu =[
     //=============
     //fast-food
     //===============
@@ -346,7 +348,11 @@ const menu = JSON.parse(localStorage.getItem("menu")) ||[
 
 
 ];
-
+if (localStorage.getItem("menu")){
+    localStorage.setItem("menu",JSON.stringify(defaultMenu))
+    localStorage.setItem("menuVersion",MENU_VERSION);
+}
+const menu = JSON.parse(localStorage.getItem("menu"))
 
 const cart = JSON.parse(localStorage.getItem("cart")) || [];
 //cart count
