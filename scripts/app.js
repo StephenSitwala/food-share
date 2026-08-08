@@ -144,7 +144,7 @@ const defaultMenu =[
     //=============
      {
         name: "two in one chicken pizza",
-        price: 78,
+        price: 100,
         image:"photos/pizza.jpg",
         category:"pizza & plasta"
     },
