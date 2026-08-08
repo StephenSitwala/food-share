@@ -29,7 +29,7 @@ links.forEach(function(link){
 //menu cards
 //===============
 const manuContainer = document.querySelector(".manu-container");
-const MENU_VERSION = "1;"
+const MENU_VERSION = "2;"
 
 const defaultMenu =[
     //=============
