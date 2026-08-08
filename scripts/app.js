@@ -16,9 +16,11 @@ closeIcone.addEventListener('click',function(){
 })
 links.forEach(function(link){
     link.addEventListener('click',function(){
-        navlinks.classList.remove("active")
-        hamburgerIcon.style.display = "block"
-    closeIcone.style.display = "none"
+        if(navlinks.classList.contains("active")){
+            navlinks.classList.remove("active")
+            hamburgerIcon.style.display = "block"
+            closeIcone.style.display = "none"
+        }
     })
 })
 
