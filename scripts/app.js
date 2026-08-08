@@ -384,7 +384,7 @@ function displayMenu(menuItem){
     })
 
 }
-displayMenu(menu.filter(function(item){ //calling the displaymenu function
+displayMenu(menu.filter(function(item){ 
     return item.category === "fast-food"
 
 }))
