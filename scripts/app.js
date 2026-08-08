@@ -348,7 +348,7 @@ const defaultMenu =[
 
 
 ];
-if (localStorage.getItem("menu")){
+if (!localStorage.getItem("menu")){
     localStorage.setItem("menu",JSON.stringify(defaultMenu))
     
 }
