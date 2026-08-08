@@ -29,7 +29,7 @@ links.forEach(function(link){
 //menu cards
 //===============
 const manuContainer = document.querySelector(".manu-container");
-const MENU_VERSION = "2;"
+
 
 const defaultMenu =[
     //=============
@@ -350,7 +350,7 @@ const defaultMenu =[
 ];
 if (localStorage.getItem("menu")){
     localStorage.setItem("menu",JSON.stringify(defaultMenu))
-    localStorage.setItem("menuVersion",MENU_VERSION);
+    
 }
 const menu = JSON.parse(localStorage.getItem("menu"))
 
