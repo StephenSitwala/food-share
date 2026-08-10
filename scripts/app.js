@@ -38,51 +38,51 @@ const defaultMenu =[
     //fast-food
     //===============
     {
-        name: "cheese Burger",
+        name: "Cheese burger",
         price: 78,
         image:"photos/home.png",
         category:"fast-food"
         
     },
     {
-        name: "Beef Burger with flies",
+        name: "Beef burger with fries",
         price: 80,
         image:"photos/images f(30).jpeg",
         category:"fast-food"
     
     },
     {
-        name: "backet of chicken & flies with 1ltr of coke",
+        name: "Bucket of chicken & fries with 1L coke",
         price: 130,
          image:"photos/fast5.jpg",
         category:"fast-food"
     },
     {
-        name: "Big beef burger with flies",
+        name: "Big beef burger with fries",
         price: 98,
          image:"photos/fast4.jpg",
         category:"fast-food"
     },
     {
-        name: "Big two ",
+        name: "Big two",
         price: 75,
         image:"photos/IMG_20260628_212535_279images (19).jpeg",
         category:"fast-food"
     },
     {
-        name: "backet of chicken",
+        name: "Bucket of chicken",
         price: 100,
         image:"photos/images f(31).jpeg",
         category:"fast-food"
     },
     {
-        name: "Two beef burgers flies and chicken",
+        name: "Two beef burgers, fries and chicken",
         price: 100,
         image:"photos/images f(29).jpeg",
         category:"fast-food"
     },
     {
-        name: "five chicken beef burgers" ,
+        name: "Five chicken beef burgers" ,
         price: 100,
         image:"photos/images f(28).jpeg",
         category:"fast-food"
@@ -91,114 +91,105 @@ const defaultMenu =[
     //local food
     //============
      {
-        name: "nshima with vegetable ",
+        name: "Nshima with vegetables",
         price: 45 ,
         image:"photos/IMG_20260629_141843_428images (20).jpeg",
         category:"local"
     },
     {
-        name: "dry fish with flies",
+        name: "Dry fish with fries",
         price: 50,
         image:"photos/IMG_20260629_141843_582images (24).jpeg",
         category:"local"
     },
     {
-        name: "nshima with kapenta and vegatables",
+        name: "Nshima with kapenta and vegetables",
         price: 40,
          image:"photos/IMG_20260629_141843_723images (23).jpeg",
         category:"local"
     },
     {
-        name: "nshima with meat",
+        name: "Nshima with meat",
         price: 35,
          image:"photos/IMG_20260629_141843_485images (21).jpeg",
         category:"local"
     },
     {
-        name: "matebeto",
+        name: "Matebeto",
         price: 100,
         image:"photos/images (25).jpeg",
         category:"local"
     },
     {
-        name: "nshima with kapenta",
+        name: "Nshima with kapenta",
         price: 30,
         image:"photos/IMG_20260629_141843_509images (22).jpeg",
         category:"local"
     },
     {
-        name: "nshima with kapenta",
+        name: "Nshima with kapenta",
         price: 30,
         image:"photos/IMG_20260629_141843_509images (22).jpeg",
         category:"local"
     },
     {
-        name: "nshima with kapenta",
+        name: "Nshima with kapenta",
         price: 30,
         image:"photos/IMG_20260629_141843_509images (22).jpeg",
         category:"local"
     },
     /////
     //============
-    //pizza & plasta
+    //pizza & pasta
     //=============
      {
-<<<<<<< HEAD
-        name: "pizza two in one",
+        name: "Two-in-one pizza",
         price: 78,
-=======
-        name: "two in one chicken pizza",
-        price: 100,
->>>>>>> ac07e8532b9f62366f0de6958fc0269c96d38538
         image:"photos/pizza.jpg",
-        category:"pizza & plasta"
+        category:"pizza & pasta"
     },
     {
-        name: "pizza pasta",
+        name: "Pizza pasta",
         price: 78,
         image:"photos/images p(25).jpeg",
-        category:"pizza & plasta"
+        category:"pizza & pasta"
     },
     {
-<<<<<<< HEAD
-        name: "pizza past with mixed vegatables",
-=======
-        name: "pizza pasta with mixed vegatables",
->>>>>>> ac07e8532b9f62366f0de6958fc0269c96d38538
+        name: "Pizza pasta with mixed vegetables",
         price: 78,
          image:"photos/images p(26).jpeg",
-        category:"pizza & plasta"
+        category:"pizza & pasta"
     },
     {
-        name: "pizza mashroom",
+        name: "Pizza mushroom",
         price: 78,
          image:"photos/images p(25).jpeg",
-        category:"pizza & plasta"
+        category:"pizza & pasta"
     },
     //
     {
-        name: "pizza with coca cola",
+        name: "Pizza with Coca-Cola",
         price: 78,
         image:"photos/pizza1.jpg",
-        category:"pizza & plasta"
+        category:"pizza & pasta"
     },
     {
-        name: "pizza",
+        name: "Pizza",
         price: 78,
         image:"photos/pizza1.jpg",
-        category:"pizza & plasta"
+        category:"pizza & pasta"
     },
     {
-        name: "pizza pasta",
+        name: "Pizza pasta",
         price: 78,
         image:"photos/images p(25).jpeg",
-        category:"pizza & plasta"
+        category:"pizza & pasta"
     },
     {
-        name: "pizza pasta",
+        name: "Pizza pasta",
         price: 78,
         image:"photos/images p(25).jpeg",
-        category:"pizza & plasta"
+        category:"pizza & pasta"
     },
     //===============
     //grilled & bbq
@@ -210,43 +201,43 @@ const defaultMenu =[
         category:"grilled & bbq"
     },
     {
-        name: "platter grilled beef",
+        name: "Platter grilled beef",
         price: 55,
         image:"photos/images (30).jpeg",
         category:"grilled & bbq"
     },
     {
-        name: "griiled beff with vagatables",
+        name: "Grilled beef with vegetables",
         price: 60,
          image:"photos/images (27).jpeg",
         category:"grilled & bbq"
     },
     {
-        name: "grilled beef with colored paper",
+        name: "Grilled beef with colored pepper",
         price: 70,
          image:"photos/images (29).jpeg",
         category:"grilled & bbq"
     },
     {
-        name: "grilled beef",
+        name: "Grilled beef",
         price: 50,
         image:"photos/grilled 7.jpg",
         category:"grilled & bbq"
     },
     {
-        name: "grillef beef with tomato & green paper",
+        name: "Grilled beef with tomato & green pepper",
         price: 30,
         image:"photos/grilled 4.jpg",
         category:"grilled & bbq"
     },
     {
-        name: "grillef beef with tomato & green paper",
+        name: "Grilled beef with tomato & green pepper",
         price: 30,
         image:"photos/grilled 4.jpg",
         category:"grilled & bbq"
     },
     {
-        name: "grillef beef with tomato & green paper",
+        name: "Grilled beef with tomato & green pepper",
         price: 30,
         image:"photos/grilled 4.jpg",
         category:"grilled & bbq"
@@ -255,49 +246,49 @@ const defaultMenu =[
     //salads & healthy meals
     //=============
      {
-        name: "health vagatables meal",
+        name: "Healthy vegetable meal",
         price: 78,
         image:"photos/images H(23).jpeg",
         category:"salads & health meals"
     },
     {
-        name: "beef eith juice and vagatables",
+        name: "Beef with juice and vegetables",
         price: 50,
         image:"photos/images H(22).jpeg",
         category:"salads & health meals"
     },
     {
-        name: "health salads with beef and vegatables",
+        name: "Healthy salad with beef and vegetables",
         price: 65,
          image:"photos/images H(21).jpeg",
         category:"salads & health meals"
     },
     {
-        name: "bread with mixed health vagatables",
+        name: "Bread with mixed healthy vegetables",
         price: 78,
          image:"photos/images H(20).jpeg",
         category:"salads & health meals"
     },
     {
-        name: "mixed vegatable health meal",
+        name: "Mixed vegetable health meal",
         price: 40,
         image:"photos/images H(19).jpeg",
         category:"salads & health meals"
     },
     {
-        name: "smoth juice with health vegatable",
+        name: "Smooth juice with healthy vegetables",
         price: 50,
         image:"photos/images H(18).jpeg",
         category:"salads & health meals"
     },
     {
-        name: "smoth juice with health vegatable",
+        name: "Smooth juice with healthy vegetables",
         price: 50,
         image:"photos/images H(18).jpeg",
         category:"salads & health meals"
     },
     {
-        name: "smoth juice with health vegatable",
+        name: "Smooth juice with healthy vegetables",
         price: 50,
         image:"photos/images H(18).jpeg",
         category:"salads & health meals"
@@ -306,19 +297,19 @@ const defaultMenu =[
     //drinks
     //==========
     {
-        name: "coca cola can",
+        name: "Coca-Cola can",
         price: 30,
         image:"photos/images (23).jpeg",
         category:"drinks and beverages"
     },
     {
-        name: "Sprite,Coca cola and Fanta each at",
+        name: "Sprite, Coca-Cola and Fanta each at",
         price: 15,
         image:"photos/images (22).jpeg",
         category:"drinks and beverages"
     },
     {
-        name: "Pepsi max",
+        name: "Pepsi Max",
         price: 18,
          image:"photos/images (21).jpeg",
         category:"drinks and beverages"
@@ -330,25 +321,25 @@ const defaultMenu =[
         category:"drinks and beverages"
     },
     {
-        name: "Merinda can",
+        name: "Mirinda can",
         price: 19,
         image:"photos/drinks2.jpeg",
         category:"drinks and beverages"
     },
     {
-        name: "Bottled coca cola ",
+        name: "Bottled Coca-Cola",
         price: 15,
         image:"photos/vahidkanani-coca-cola-5779718_1920.jpg",
         category:"drinks and beverages"
     },
     {
-        name: "Bottled coca cola ",
+        name: "Bottled Coca-Cola",
         price: 15,
         image:"photos/vahidkanani-coca-cola-5779718_1920.jpg",
         category:"drinks and beverages"
     },
     {
-        name: "Bottled coca cola ",
+        name: "Bottled Coca-Cola",
         price: 15,
         image:"photos/vahidkanani-coca-cola-5779718_1920.jpg",
         category:"drinks and beverages"
