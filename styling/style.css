@@ -247,7 +247,9 @@ nav ul li:nth-child(4){
     border-radius: 8px;
     padding: 8px;
     min-width: 0;
-    
+    display: block;
+    background: #fff;
+    border: 1px solid #eee;
 }
 
 .manu-card img{
@@ -318,14 +320,6 @@ nav ul li:nth-child(4){
 }
 .manu-card button{
     margin-top: auto;
-}
-
-.manu-card.salads-health-meals,
-.manu-card.drinks,
-.manu-card.grilled-bbq,
-.manu-card.pizza-plasta,
-.manu-card.local{
-    display: none;
 }
 
 /*-----------about section-----------------*/
