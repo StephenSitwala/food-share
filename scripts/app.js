@@ -143,8 +143,13 @@ const defaultMenu =[
     //pizza & plasta
     //=============
      {
+<<<<<<< HEAD
         name: "pizza two in one",
         price: 78,
+=======
+        name: "two in one chicken pizza",
+        price: 100,
+>>>>>>> ac07e8532b9f62366f0de6958fc0269c96d38538
         image:"photos/pizza.jpg",
         category:"pizza & plasta"
     },
@@ -155,7 +160,11 @@ const defaultMenu =[
         category:"pizza & plasta"
     },
     {
+<<<<<<< HEAD
         name: "pizza past with mixed vegatables",
+=======
+        name: "pizza pasta with mixed vegatables",
+>>>>>>> ac07e8532b9f62366f0de6958fc0269c96d38538
         price: 78,
          image:"photos/images p(26).jpeg",
         category:"pizza & plasta"
