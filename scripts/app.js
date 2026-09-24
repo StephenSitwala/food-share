@@ -26,17 +26,15 @@ links.forEach(function(link){
 
 
 
-
-//================
 //menu cards
-//===============
+
 const manuContainer = document.querySelector(".manu-container");
 
 
 const defaultMenu =[
-    //=============
+    
     //fast-food
-    //===============
+    
     {
         name: "Cheese burger",
         price: 78,
@@ -87,9 +85,9 @@ const defaultMenu =[
         image:"photos/images f(28).jpeg",
         category:"fast-food"
     },
-    //=============
+    
     //local food
-    //============
+    
      {
         name: "Nshima with vegetables",
         price: 45 ,
@@ -138,10 +136,9 @@ const defaultMenu =[
         image:"photos/IMG_20260629_141843_509images (22).jpeg",
         category:"local"
     },
-    /////
-    //============
+    
     //pizza & pasta
-    //=============
+    
      {
         name: "Two-in-one pizza",
         price: 78,
@@ -191,9 +188,9 @@ const defaultMenu =[
         image:"photos/images p(25).jpeg",
         category:"pizza & pasta"
     },
-    //===============
+    
     //grilled & bbq
-    //=============
+    
      {
         name: "Grilled beef",
         price: 56,
@@ -242,9 +239,9 @@ const defaultMenu =[
         image:"photos/grilled 4.jpg",
         category:"grilled & bbq"
     },
-    //=============
+    
     //salads & healthy meals
-    //=============
+    
      {
         name: "Healthy vegetable meal",
         price: 78,
@@ -293,9 +290,9 @@ const defaultMenu =[
         image:"photos/images H(18).jpeg",
         category:"salads & health meals"
     },
-    //==========
+    
     //drinks
-    //==========
+    
     {
         name: "Coca-Cola can",
         price: 30,
@@ -359,9 +356,9 @@ const menu = JSON.parse(localStorage.getItem("menu"))
 const cart = JSON.parse(localStorage.getItem("cart")) || [];
 //cart count
 const cartCount = document.querySelector(".cart-count");
-//=============
+
 //displaymenu cards
-//===============
+
 
 function displayMenu(menuItem){
     manuContainer.innerHTML =""
